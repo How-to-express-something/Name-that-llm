@@ -17,6 +17,8 @@ venv/
 .ruff_cache/
 
 # Competition data and generated artifacts
+results/
+*.joblib
 data/
 input/
 outputs/
