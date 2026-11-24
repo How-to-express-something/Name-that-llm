@@ -1,0 +1,44 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Competition data and generated artifacts
+data/
+input/
+outputs/
+output/
+models/
+checkpoints/
+submissions/
+wandb/
+mlruns/
+*.zip
+*.7z
+*.tar
+*.gz
+*.parquet
+*.feather
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
